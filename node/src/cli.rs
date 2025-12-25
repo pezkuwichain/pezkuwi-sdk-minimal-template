@@ -1,8 +1,7 @@
-// This file is part of Substrate.
+// This file is part of pezkuwi-sdk.
 
-// Copyright (C) Parity Technologies (UK) Ltd.
+// Copyright (C) Pezkuwi Foundation. and Kurdistan Blockchain Technologies Institute (KBTI) 2024.
 // SPDX-License-Identifier: Apache-2.0
-
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
@@ -15,7 +14,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-use polkadot_sdk::{sc_cli::RunCmd, *};
+use pezkuwi_sdk::{pezsc_cli::RunCmd, *};
 
 #[derive(Debug, Clone)]
 pub enum Consensus {
@@ -56,29 +55,29 @@ pub struct Cli {
 pub enum Subcommand {
 	/// Key management cli utilities
 	#[command(subcommand)]
-	Key(sc_cli::KeySubcommand),
+	Key(pezsc_cli::KeySubcommand),
 
 	/// Build a chain specification.
-	BuildSpec(sc_cli::BuildSpecCmd),
+	BuildSpec(pezsc_cli::BuildSpecCmd),
 
 	/// Validate blocks.
-	CheckBlock(sc_cli::CheckBlockCmd),
+	CheckBlock(pezsc_cli::CheckBlockCmd),
 
 	/// Export blocks.
-	ExportBlocks(sc_cli::ExportBlocksCmd),
+	ExportBlocks(pezsc_cli::ExportBlocksCmd),
 
 	/// Export the state of a given block into a chain spec.
-	ExportState(sc_cli::ExportStateCmd),
+	ExportState(pezsc_cli::ExportStateCmd),
 
 	/// Import blocks.
-	ImportBlocks(sc_cli::ImportBlocksCmd),
+	ImportBlocks(pezsc_cli::ImportBlocksCmd),
 
 	/// Remove the whole chain.
-	PurgeChain(sc_cli::PurgeChainCmd),
+	PurgeChain(pezsc_cli::PurgeChainCmd),
 
 	/// Revert the chain to a previous state.
-	Revert(sc_cli::RevertCmd),
+	Revert(pezsc_cli::RevertCmd),
 
 	/// Db meta columns information.
-	ChainInfo(sc_cli::ChainInfoCmd),
+	ChainInfo(pezsc_cli::ChainInfoCmd),
 }

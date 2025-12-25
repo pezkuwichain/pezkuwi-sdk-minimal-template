@@ -1,6 +1,6 @@
-// This file is part of Substrate.
+// This file is part of pezkuwi-sdk.
 
-// Copyright (C) Parity Technologies (UK) Ltd.
+// Copyright (C) Pezkuwi Foundation. and Kurdistan Blockchain Technologies Institute (KBTI) 2024.
 // SPDX-License-Identifier: Apache-2.0
 
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,7 +15,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-//! Substrate Node Template CLI library.
+//! Bizinikiwi Node Template CLI library.
 #![warn(missing_docs)]
 
 mod chain_spec;
@@ -24,6 +24,6 @@ mod command;
 mod rpc;
 mod service;
 
-fn main() -> polkadot_sdk::sc_cli::Result<()> {
+fn main() -> pezkuwi_sdk::pezsc_cli::Result<()> {
 	command::run()
 }

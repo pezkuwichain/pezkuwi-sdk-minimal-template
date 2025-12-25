@@ -1,6 +1,6 @@
 [package]
-name = "minimal-template-runtime"
-description = "A solochain runtime template built with Substrate, part of Polkadot Sdk."
+name = "pez-minimal-template-runtime"
+description = "A solochain runtime template built with Bizinikiwi, part of Pezkuwi SDK."
 version = "0.1.0"
 license = "Unlicense"
 authors.workspace = true
@@ -11,20 +11,20 @@ publish = false
 
 [dependencies]
 codec = { workspace = true }
-pallet-minimal-template.workspace = true
-polkadot-sdk = { workspace = true, features = ["pallet-balances", "pallet-sudo", "pallet-timestamp", "pallet-transaction-payment", "pallet-transaction-payment-rpc-runtime-api", "runtime"] }
+pezpallet-minimal-template.workspace = true
+pezkuwi-sdk = { workspace = true, features = ["pezpallet-balances", "pezpallet-sudo", "pezpallet-timestamp", "pezpallet-transaction-payment", "pezpallet-transaction-payment-rpc-runtime-api", "runtime", "pezsp-api"] }
 scale-info = { workspace = true }
 serde_json = { workspace = true, default-features = false, features = ["alloc"] }
 
 [build-dependencies]
-polkadot-sdk = { optional = true, workspace = true, features = ["substrate-wasm-builder"] }
+pezkuwi-sdk = { optional = true, workspace = true, features = ["bizinikiwi-wasm-builder"] }
 
 [features]
 default = ["std"]
 std = [
 	"codec/std",
-	"pallet-minimal-template/std",
-	"polkadot-sdk/std",
+	"pezpallet-minimal-template/std",
+	"pezkuwi-sdk/std",
 	"scale-info/std",
 	"serde_json/std",
 ]

@@ -1,6 +1,6 @@
-// This file is part of Substrate.
+// This file is part of Bizinikiwi.
 
-// Copyright (C) Parity Technologies (UK) Ltd.
+// Copyright (C) Parity Technologies (UK) Ltd. and Kurdistan Blockchain Technologies Institute
 // SPDX-License-Identifier: Apache-2.0
 
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,7 +15,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-use polkadot_sdk::substrate_build_script_utils::{generate_cargo_keys, rerun_if_git_head_changed};
+use pezkuwi_sdk::bizinikiwi_build_script_utils::{generate_cargo_keys, rerun_if_git_head_changed};
 
 fn main() {
 	generate_cargo_keys();
