@@ -1,6 +1,6 @@
 [package]
-name = "minimal-template-node"
-description = "A minimal Substrate-based Substrate node, ready for hacking."
+name = "pez-minimal-template-node"
+description = "A minimal bizinikiwi-based bizinikiwi node, ready for hacking."
 version = "0.1.0"
 license = "Unlicense"
 authors.workspace = true
@@ -19,15 +19,15 @@ docify = { workspace = true }
 futures = { features = ["thread-pool"], workspace = true }
 futures-timer = { workspace = true }
 jsonrpsee = { features = ["server"], workspace = true }
-minimal-template-runtime.workspace = true
-polkadot-sdk = { workspace = true, features = ["experimental", "node"] }
+pez-minimal-template-runtime = { workspace = true }
+pezkuwi-sdk = { workspace = true, features = ["experimental", "node"] }
 
 [build-dependencies]
-polkadot-sdk = { workspace = true, features = ["substrate-build-script-utils"] }
+pezkuwi-sdk = { workspace = true, features = ["bizinikiwi-build-script-utils"] }
 
 [features]
 default = ["std"]
 std = [
-	"minimal-template-runtime/std",
-	"polkadot-sdk/std",
+	"pez-minimal-template-runtime/std",
+	"pezkuwi-sdk/std",
 ]

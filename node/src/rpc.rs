@@ -1,6 +1,6 @@
-// This file is part of Substrate.
+// This file is part of pezkuwi-sdk.
 
-// Copyright (C) Parity Technologies (UK) Ltd.
+// Copyright (C) Pezkuwi Foundation. and Kurdistan Blockchain Technologies Institute (KBTI) 2024.
 // SPDX-License-Identifier: Apache-2.0
 
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -16,17 +16,17 @@
 // limitations under the License.
 
 //! A collection of node-specific RPC methods.
-//! Substrate provides the `sc-rpc` crate, which defines the core RPC layer
-//! used by Substrate nodes. This file extends those RPC definitions with
+//! bizinikiwi provides the `pezsc-rpc` crate, which defines the core RPC layer
+//! used by bizinikiwi nodes. This file extends those RPC definitions with
 //! capabilities that are specific to this project's runtime configuration.
 
 #![warn(missing_docs)]
 
 use jsonrpsee::RpcModule;
-use minimal_template_runtime::interface::{AccountId, Nonce, OpaqueBlock};
-use polkadot_sdk::{
-	sc_transaction_pool_api::TransactionPool,
-	sp_blockchain::{Error as BlockChainError, HeaderBackend, HeaderMetadata},
+use pez_minimal_template_runtime::interface::{AccountId, Nonce, OpaqueBlock};
+use pezkuwi_sdk::{
+	pezsc_transaction_pool_api::TransactionPool,
+	pezsp_blockchain::{Error as BlockChainError, HeaderBackend, HeaderMetadata},
 	*,
 };
 use std::sync::Arc;
@@ -48,15 +48,15 @@ where
 	C: Send
 		+ Sync
 		+ 'static
-		+ sp_api::ProvideRuntimeApi<OpaqueBlock>
+		+ pezsp_api::ProvideRuntimeApi<OpaqueBlock>
 		+ HeaderBackend<OpaqueBlock>
 		+ HeaderMetadata<OpaqueBlock, Error = BlockChainError>
 		+ 'static,
-	C::Api: sp_block_builder::BlockBuilder<OpaqueBlock>,
-	C::Api: substrate_frame_rpc_system::AccountNonceApi<OpaqueBlock, AccountId, Nonce>,
+	C::Api: pezsp_block_builder::BlockBuilder<OpaqueBlock>,
+	C::Api: pezframe_rpc_system::AccountNonceApi<OpaqueBlock, AccountId, Nonce>,
 	P: TransactionPool + 'static,
 {
-	use polkadot_sdk::substrate_frame_rpc_system::{System, SystemApiServer};
+	use pezkuwi_sdk::pezframe_rpc_system::{System, SystemApiServer};
 	let mut module = RpcModule::new(());
 	let FullDeps { client, pool } = deps;
 

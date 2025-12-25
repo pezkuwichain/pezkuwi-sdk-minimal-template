@@ -1,31 +1,42 @@
 [workspace.package]
 license = "MIT-0"
-authors = ["Parity Technologies <admin@parity.io>"]
-homepage = "https://paritytech.github.io/polkadot-sdk/"
-repository = "https://github.com/paritytech/polkadot-sdk-minimal-template.git"
+authors = ["Pezkuwi <admin@pezkuwihain.io>"]
+homepage = "https://github.com/pezkuwichain/"
+repository = "https://github.com/pezkuwichain/pezkuwi-sdk-minimal-template.git"
 edition = "2021"
 
 [workspace]
-default-members = ["pallets/template", "runtime"]
+default-members = ["pezpallets/template", "runtime"]
 members = [
     "node",
-    "pallets/template",
+    "pezpallets/template",
     "runtime",
 ]
 resolver = "2"
 
 [workspace.dependencies]
-minimal-template-runtime = { path = "./runtime", default-features = false }
-pallet-minimal-template = { path = "./pallets/template", default-features = false }
+pez-minimal-template-runtime = { path = "./runtime", default-features = false }
+pezpallet-minimal-template = { path = "./pezpallets/template", default-features = false }
 clap = { version = "4.5.13" }
 docify = { version = "0.2.9" }
 futures = { version = "0.3.31" }
 futures-timer = { version = "3.0.2" }
 jsonrpsee = { version = "0.24.3" }
-polkadot-sdk = { version = "2503.0.1", default-features = false }
-codec = { version = "3.7.4", default-features = false, package = "parity-scale-codec" }
+codec = { version = "3.7.5", default-features = false, package = "parity-scale-codec" }
 scale-info = { version = "2.11.6", default-features = false }
 serde_json = { version = "1.0.132", default-features = false }
+pezkuwi-sdk = { version = "0.1.0", default-features = false }
+pezframe-support = { version = "28.0.0", default-features = false }
+pezframe-system = { version = "28.0.0", default-features = false }
+pezpallet-balances = { version = "28.0.0", default-features = false }
+pezpallet-sudo = { version = "28.0.0", default-features = false }
+pezpallet-timestamp = { version = "27.0.0", default-features = false }
+pezpallet-transaction-payment = { version = "28.0.0", default-features = false }
+pezpallet-transaction-payment-rpc-runtime-api = { version = "28.0.0", default-features = false }
+pezsp-api = { version = "26.0.0", default-features = false } # Corrected version
+pezsp-keyring = { version = "28.0.0", default-features = false } # Assumed version
+pezsp-weights = { version = "28.0.0", default-features = false } # Assumed version
+
 
 [profile.release]
 opt-level = 3

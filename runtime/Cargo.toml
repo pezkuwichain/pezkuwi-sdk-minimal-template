@@ -1,6 +1,6 @@
 [package]
-name = "minimal-template-runtime"
-description = "A solochain runtime template built with Substrate, part of Polkadot Sdk."
+name = "pez-minimal-template-runtime"
+description = "A solochain runtime template built with bizinikiwi, part of Pezkuwi Sdk."
 version = "0.1.0"
 license = "Unlicense"
 authors.workspace = true
@@ -11,20 +11,55 @@ publish = false
 
 [dependencies]
 codec = { workspace = true }
-pallet-minimal-template.workspace = true
-polkadot-sdk = { workspace = true, features = ["pallet-balances", "pallet-sudo", "pallet-timestamp", "pallet-transaction-payment", "pallet-transaction-payment-rpc-runtime-api", "runtime"] }
+pezpallet-minimal-template = { workspace = true }
 scale-info = { workspace = true }
 serde_json = { workspace = true, default-features = false, features = ["alloc"] }
 
+# Explicitly add the dependencies needed for the macros and traits.
+# These will be resolved by the [patch] section in the root Cargo.toml.
+pezframe-support = { workspace = true, default-features = false }
+pezframe-system = { workspace = true, default-features = false }
+pezpallet-balances = { workspace = true, default-features = false }
+pezpallet-sudo = { workspace = true, default-features = false }
+pezpallet-timestamp = { workspace = true, default-features = false }
+pezpallet-transaction-payment = { workspace = true, default-features = false }
+pezpallet-transaction-payment-rpc-runtime-api = { workspace = true, default-features = false }
+pezsp-api = { workspace = true, default-features = false }
+pezsp-keyring = { workspace = true, default-features = false }
+pezsp-weights = { workspace = true, default-features = false }
+
+# Ensure pezkuwi-sdk is resolved and enable required features
+pezkuwi-sdk = { workspace = true, default-features = false, features = [
+    "experimental",
+    "runtime",
+    "pezsp-api",
+    "pezsp-keyring",
+    "pezpallet-transaction-payment",
+    "pezpallet-transaction-payment-rpc-runtime-api",
+    "pezsp-weights",
+    "pezpallet-balances",
+    "pezpallet-sudo",
+    "pezpallet-timestamp",
+    "pezkuwi-sdk-frame", # CORRECTED to match the actual feature name in pezkuwi-sdk's Cargo.toml, NOT the Rust module path.
+] }
+
 [build-dependencies]
-polkadot-sdk = { optional = true, workspace = true, features = ["substrate-wasm-builder"] }
+pezkuwi-sdk = { optional = true, workspace = true, features = ["bizinikiwi-wasm-builder"] }
 
 [features]
 default = ["std"]
 std = [
-	"codec/std",
-	"pallet-minimal-template/std",
-	"polkadot-sdk/std",
-	"scale-info/std",
-	"serde_json/std",
+    "codec/std",
+    "scale-info/std",
+    "pezframe-support/std",
+    "pezframe-system/std",
+    "pezpallet-balances/std",
+    "pezpallet-sudo/std",
+    "pezpallet-timestamp/std",
+    "pezpallet-transaction-payment/std",
+    "pezpallet-transaction-payment-rpc-runtime-api/std",
+    "pezsp-api/std",
+    "pezsp-keyring/std",
+    "pezsp-weights/std",
+    "pezkuwi-sdk/std", # Ensure std feature is passed to pezkuwi-sdk
 ]
