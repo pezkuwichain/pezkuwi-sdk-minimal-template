@@ -1,37 +1,25 @@
-//! A shell pezpallet built with `pezframe`.
+//! A shell pezpallet built with [`pezframe`].
+//!
+//! To get started with this pezpallet, try implementing the guide in
+//! <https://github.com/pezkuwichain/pezkuwi-sdk>
+
 #![cfg_attr(not(feature = "std"), no_std)]
 
-// The preludes must be consistently rebranded as you instructed.
-use pezframe_support::pezpallet_prelude::*;
-use pezframe_system::pezpallet_prelude::*;
+use pezkuwi_sdk::pezkuwi_sdk_frame::deps::pezframe_support::pezpallet_prelude::*;
 
-// We export the inner `pezpallet` module.
-pub use self::pezpallet::*;
+// Re-export all pezpallet parts, this is needed to properly import the pezpallet into the runtime.
+pub use pallet::*;
 
-// The main macro is `pezpallet`, and dev_mode is used to handle weight/index warnings.
-#[pezframe_support::pezpallet(dev_mode)]
-// The module name is `pezpallet`.
-pub mod pezpallet {
+#[pezkuwi_sdk::pezframe_support::pezpallet]
+pub mod pallet {
 	use super::*;
 
-	// All inner attributes must be consistently `#[pezpallet::...]`
 	#[pezpallet::config]
 	pub trait Config: pezkuwi_sdk::pezframe_system::Config {}
 
 	#[pezpallet::pezpallet]
-	// The struct name must be `Pezpallet`.
-	pub struct Pezpallet<T>(core::marker::PhantomData<T>);
+	pub struct Pezpallet<T>(_);
 
 	#[pezpallet::storage]
-	#[pezpallet::getter(fn something)]
-	pub type Something<T> = StorageValue<_, u32>;
-
-	#[pezpallet::call]
-	impl<T: Config> Pezpallet<T> {
-		pub fn do_something(origin: OriginFor<T>, something: u32) -> DispatchResult {
-			ensure_signed(origin)?;
-			Something::<T>::put(something);
-			Ok(())
-		}
-	}
+	pub type Value<T> = StorageValue<Value = u32>;
 }

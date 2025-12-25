@@ -1,6 +1,6 @@
 [package]
 name = "pez-minimal-template-node"
-description = "A minimal bizinikiwi-based bizinikiwi node, ready for hacking."
+description = "A minimal Bizinikiwi-based node, ready for hacking."
 version = "0.1.0"
 license = "Unlicense"
 authors.workspace = true
@@ -19,7 +19,7 @@ docify = { workspace = true }
 futures = { features = ["thread-pool"], workspace = true }
 futures-timer = { workspace = true }
 jsonrpsee = { features = ["server"], workspace = true }
-pez-minimal-template-runtime = { workspace = true }
+pez-minimal-template-runtime.workspace = true
 pezkuwi-sdk = { workspace = true, features = ["experimental", "node"] }
 
 [build-dependencies]

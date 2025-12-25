@@ -1,6 +1,6 @@
 [package]
 name = "pezpallet-minimal-template"
-description = "A minimal pezpallet built with PEZFRAME, part of Pezkuwi Sdk."
+description = "A minimal pezpallet built with Pezframe, part of Pezkuwi SDK."
 version = "0.1.0"
 license = "Unlicense"
 authors.workspace = true
@@ -14,24 +14,10 @@ targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
 codec = { features = ["derive"], workspace = true }
-scale-info = { features = ["derive"], workspace = true }
-
-# Removed `default-features = false` to ensure default features (like `std`) are enabled.
-pezframe-support = { workspace = true }
-pezframe-system = { workspace = true }
-
-# Keep pezkuwi-sdk with default features disabled, and specify required features.
-# This will ensure it resolves correctly through the patch.
 pezkuwi-sdk = { workspace = true, features = ["experimental", "runtime"], default-features = false }
+scale-info = { features = ["derive"], workspace = true }
 
 
 [features]
 default = ["std"]
-std = [
-    "codec/std",
-    "scale-info/std",
-    # Ensure `std` feature is passed to `pezframe-support` and `pezframe-system`.
-    "pezframe-support/std",
-    "pezframe-system/std",
-    "pezkuwi-sdk/std"
-]
+std = ["codec/std", "pezkuwi-sdk/std", "scale-info/std"]

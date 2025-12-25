@@ -1,6 +1,6 @@
 [workspace.package]
 license = "MIT-0"
-authors = ["Pezkuwi <admin@pezkuwihain.io>"]
+authors = ["Pezkuwi <admin@pezkuwichain.io>"]
 homepage = "https://github.com/pezkuwichain/"
 repository = "https://github.com/pezkuwichain/pezkuwi-sdk-minimal-template.git"
 edition = "2021"
@@ -22,21 +22,10 @@ docify = { version = "0.2.9" }
 futures = { version = "0.3.31" }
 futures-timer = { version = "3.0.2" }
 jsonrpsee = { version = "0.24.3" }
+pezkuwi-sdk = { git = "https://github.com/pezkuwichain/pezkuwi-sdk.git", branch = "main", default-features = false }
 codec = { version = "3.7.5", default-features = false, package = "parity-scale-codec" }
 scale-info = { version = "2.11.6", default-features = false }
 serde_json = { version = "1.0.132", default-features = false }
-pezkuwi-sdk = { version = "0.1.0", default-features = false }
-pezframe-support = { version = "28.0.0", default-features = false }
-pezframe-system = { version = "28.0.0", default-features = false }
-pezpallet-balances = { version = "28.0.0", default-features = false }
-pezpallet-sudo = { version = "28.0.0", default-features = false }
-pezpallet-timestamp = { version = "27.0.0", default-features = false }
-pezpallet-transaction-payment = { version = "28.0.0", default-features = false }
-pezpallet-transaction-payment-rpc-runtime-api = { version = "28.0.0", default-features = false }
-pezsp-api = { version = "26.0.0", default-features = false } # Corrected version
-pezsp-keyring = { version = "28.0.0", default-features = false } # Assumed version
-pezsp-weights = { version = "28.0.0", default-features = false } # Assumed version
-
 
 [profile.release]
 opt-level = 3
@@ -47,3 +36,34 @@ codegen-units = 1
 inherits = "release"
 lto = true
 
+[patch.crates-io]
+# Map rebranded Pezkuwi packages from the forked Pezkuwi SDK repository
+pezkuwi-sdk = { git = "https://github.com/pezkuwichain/pezkuwi-sdk.git", branch = "main" }
+pezframe-support = { git = "https://github.com/pezkuwichain/pezkuwi-sdk.git", branch = "main" }
+pezframe-system = { git = "https://github.com/pezkuwichain/pezkuwi-sdk.git", branch = "main" }
+pezpallet-balances = { git = "https://github.com/pezkuwichain/pezkuwi-sdk.git", branch = "main" }
+pezpallet-sudo = { git = "https://github.com/pezkuwichain/pezkuwi-sdk.git", branch = "main" }
+pezpallet-timestamp = { git = "https://github.com/pezkuwichain/pezkuwi-sdk.git", branch = "main" }
+pezpallet-transaction-payment = { git = "https://github.com/pezkuwichain/pezkuwi-sdk.git", branch = "main" }
+pezpallet-transaction-payment-rpc-runtime-api = { git = "https://github.com/pezkuwichain/pezkuwi-sdk.git", branch = "main" }
+pezsp-api = { git = "https://github.com/pezkuwichain/pezkuwi-sdk.git", branch = "main" }
+pezsp-keyring = { git = "https://github.com/pezkuwichain/pezkuwi-sdk.git", branch = "main" }
+pezsp-weights = { git = "https://github.com/pezkuwichain/pezkuwi-sdk.git", branch = "main" }
+pezsp-io = { git = "https://github.com/pezkuwichain/pezkuwi-sdk.git", branch = "main" }
+pezsp-runtime = { git = "https://github.com/pezkuwichain/pezkuwi-sdk.git", branch = "main" }
+pezsp-genesis-builder = { git = "https://github.com/pezkuwichain/pezkuwi-sdk.git", branch = "main" }
+pezsp-timestamp = { git = "https://github.com/pezkuwichain/pezkuwi-sdk.git", branch = "main" }
+pezsp-block-builder = { git = "https://github.com/pezkuwichain/pezkuwi-sdk.git", branch = "main" }
+pezsp-blockchain = { git = "https://github.com/pezkuwichain/pezkuwi-sdk.git", branch = "main" }
+pezsc-cli = { git = "https://github.com/pezkuwichain/pezkuwi-sdk.git", branch = "main" }
+pezsc-service = { git = "https://github.com/pezkuwichain/pezkuwi-sdk.git", branch = "main" }
+pezsc-client-api = { git = "https://github.com/pezkuwichain/pezkuwi-sdk.git", branch = "main" }
+pezsc-executor = { git = "https://github.com/pezkuwichain/pezkuwi-sdk.git", branch = "main" }
+pezsc-telemetry = { git = "https://github.com/pezkuwichain/pezkuwi-sdk.git", branch = "main" }
+pezsc-transaction-pool-api = { git = "https://github.com/pezkuwichain/pezkuwi-sdk.git", branch = "main" }
+pezsc-transaction-pool = { git = "https://github.com/pezkuwichain/pezkuwi-sdk.git", branch = "main" }
+pezsc-consensus = { git = "https://github.com/pezkuwichain/pezkuwi-sdk.git", branch = "main" }
+pezsc-consensus-manual-seal = { git = "https://github.com/pezkuwichain/pezkuwi-sdk.git", branch = "main" }
+pezsc-network = { git = "https://github.com/pezkuwichain/pezkuwi-sdk.git", branch = "main" }
+pezsc-offchain = { git = "https://github.com/pezkuwichain/pezkuwi-sdk.git", branch = "main" }
+pezsc-basic-authorship = { git = "https://github.com/pezkuwichain/pezkuwi-sdk.git", branch = "main" }

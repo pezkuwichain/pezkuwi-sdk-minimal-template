@@ -1117,7 +1117,7 @@ checksum = "9b34d609dfbaf33d6889b2b7106d3ca345eacad44200913df5ba02bfd31d2ba9"
 [[package]]
 name = "asset-test-pezutils"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "assets-common",
  "parity-scale-codec",
@@ -1148,7 +1148,7 @@ dependencies = [
 [[package]]
 name = "assets-common"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "impl-trait-for-tuples",
  "parity-scale-codec",
@@ -1475,7 +1475,7 @@ checksum = "89e25b6adfb930f02d1981565a6e5d9c547ac15a96606256d3b59040e5cd4ca3"
 [[package]]
 name = "binary-merkle-tree"
 version = "13.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "hash-db",
  "log",
@@ -1589,7 +1589,7 @@ dependencies = [
 [[package]]
 name = "bizinikiwi-bip39"
 version = "0.4.7"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "hmac 0.12.1",
  "pbkdf2",
@@ -1614,12 +1614,12 @@ dependencies = [
 [[package]]
 name = "bizinikiwi-build-script-utils"
 version = "11.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 
 [[package]]
 name = "bizinikiwi-frame-rpc-support"
 version = "29.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "jsonrpsee",
  "parity-scale-codec",
@@ -1633,7 +1633,7 @@ dependencies = [
 [[package]]
 name = "bizinikiwi-frame-rpc-system"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "docify",
  "futures",
@@ -1653,7 +1653,7 @@ dependencies = [
 [[package]]
 name = "bizinikiwi-prometheus-endpoint"
 version = "0.17.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "http-body-util",
  "hyper 1.6.0",
@@ -1667,7 +1667,7 @@ dependencies = [
 [[package]]
 name = "bizinikiwi-rpc-client"
 version = "0.33.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-trait",
  "jsonrpsee",
@@ -1680,7 +1680,7 @@ dependencies = [
 [[package]]
 name = "bizinikiwi-state-trie-migration-rpc"
 version = "27.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "jsonrpsee",
  "parity-scale-codec",
@@ -1697,7 +1697,7 @@ dependencies = [
 [[package]]
 name = "bizinikiwi-txtesttool"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-trait",
  "average",
@@ -1730,7 +1730,7 @@ dependencies = [
 [[package]]
 name = "bizinikiwi-wasm-builder"
 version = "17.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "build-helper",
  "cargo_metadata",
@@ -1926,7 +1926,7 @@ dependencies = [
 [[package]]
 name = "bp-header-pez-chain"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "finality-grandpa",
  "parity-scale-codec",
@@ -1943,7 +1943,7 @@ dependencies = [
 [[package]]
 name = "bp-messages"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bp-header-pez-chain",
  "parity-scale-codec",
@@ -1959,7 +1959,7 @@ dependencies = [
 [[package]]
 name = "bp-pezkuwi-core"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bp-messages",
  "parity-scale-codec",
@@ -1976,7 +1976,7 @@ dependencies = [
 [[package]]
 name = "bp-relayers"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bp-header-pez-chain",
  "bp-messages",
@@ -1994,7 +1994,7 @@ dependencies = [
 [[package]]
 name = "bp-test-utils"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bp-header-pez-chain",
  "bp-pezkuwi-core",
@@ -2014,7 +2014,7 @@ dependencies = [
 [[package]]
 name = "bp-teyrchains"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bp-header-pez-chain",
  "bp-pezkuwi-core",
@@ -2031,7 +2031,7 @@ dependencies = [
 [[package]]
 name = "bp-xcm-bridge-hub"
 version = "0.2.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bp-messages",
  "parity-scale-codec",
@@ -2048,7 +2048,7 @@ dependencies = [
 [[package]]
 name = "bp-xcm-bridge-hub-router"
 version = "0.6.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezsp-core",
@@ -2060,7 +2060,7 @@ dependencies = [
 [[package]]
 name = "bridge-hub-common"
 version = "0.1.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezcumulus-primitives-core",
@@ -4118,7 +4118,7 @@ dependencies = [
 [[package]]
 name = "frame-remote-externalities"
 version = "0.35.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bizinikiwi-rpc-client",
  "futures",
@@ -4140,7 +4140,7 @@ dependencies = [
 [[package]]
 name = "frame-storage-access-test-runtime"
 version = "0.1.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bizinikiwi-wasm-builder",
  "parity-scale-codec",
@@ -7180,7 +7180,7 @@ version = "0.50.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7957b9740744892f114936ab4a57b3f487491bbeafaf8083688b16841a4240e5"
 dependencies = [
- "windows-sys 0.61.2",
+ "windows-sys 0.59.0",
 ]
 
 [[package]]
@@ -7753,7 +7753,7 @@ dependencies = [
 [[package]]
 name = "pez-ethereum-standards"
 version = "0.1.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "alloy-core",
 ]
@@ -7761,7 +7761,7 @@ dependencies = [
 [[package]]
 name = "pez-fork-tree"
 version = "12.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
 ]
@@ -7769,7 +7769,7 @@ dependencies = [
 [[package]]
 name = "pez-generate-bags"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "chrono",
  "num-format",
@@ -7798,8 +7798,6 @@ name = "pez-minimal-template-runtime"
 version = "0.1.0"
 dependencies = [
  "parity-scale-codec",
- "pezframe-support",
- "pezframe-system",
  "pezkuwi-sdk",
  "pezpallet-minimal-template",
  "scale-info",
@@ -7809,7 +7807,7 @@ dependencies = [
 [[package]]
 name = "pez-slot-range-helper"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "enumn",
  "parity-scale-codec",
@@ -7820,7 +7818,7 @@ dependencies = [
 [[package]]
 name = "pez-subkey"
 version = "9.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "clap",
  "pezsc-cli",
@@ -7829,7 +7827,7 @@ dependencies = [
 [[package]]
 name = "pez-tracing-gum"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "coarsetime",
  "pez-tracing-gum-proc-macro",
@@ -7840,7 +7838,7 @@ dependencies = [
 [[package]]
 name = "pez-tracing-gum-proc-macro"
 version = "5.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "expander",
  "proc-macro-crate 3.3.0",
@@ -7852,7 +7850,7 @@ dependencies = [
 [[package]]
 name = "pezbp-runtime"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "hash-db",
  "impl-trait-for-tuples",
@@ -7875,7 +7873,7 @@ dependencies = [
 [[package]]
 name = "pezbridge-hub-test-utils"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "asset-test-pezutils",
  "bp-header-pez-chain",
@@ -7917,7 +7915,7 @@ dependencies = [
 [[package]]
 name = "pezbridge-runtime-common"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bp-header-pez-chain",
  "bp-messages",
@@ -7948,7 +7946,7 @@ dependencies = [
 [[package]]
 name = "pezcumulus-client-bootnodes"
 version = "0.1.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "array-bytes",
  "async-channel 1.9.0",
@@ -7972,7 +7970,7 @@ dependencies = [
 [[package]]
 name = "pezcumulus-client-cli"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "clap",
  "parity-scale-codec",
@@ -7989,7 +7987,7 @@ dependencies = [
 [[package]]
 name = "pezcumulus-client-collator"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "futures",
  "parity-scale-codec",
@@ -8012,7 +8010,7 @@ dependencies = [
 [[package]]
 name = "pezcumulus-client-consensus-aura"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-trait",
  "bizinikiwi-prometheus-endpoint",
@@ -8060,7 +8058,7 @@ dependencies = [
 [[package]]
 name = "pezcumulus-client-consensus-common"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-trait",
  "bizinikiwi-prometheus-endpoint",
@@ -8092,7 +8090,7 @@ dependencies = [
 [[package]]
 name = "pezcumulus-client-consensus-proposer"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -8112,7 +8110,7 @@ dependencies = [
 [[package]]
 name = "pezcumulus-client-consensus-relay-chain"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-trait",
  "bizinikiwi-prometheus-endpoint",
@@ -8135,7 +8133,7 @@ dependencies = [
 [[package]]
 name = "pezcumulus-client-network"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-trait",
  "futures",
@@ -8163,7 +8161,7 @@ dependencies = [
 [[package]]
 name = "pezcumulus-client-pov-recovery"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-trait",
  "futures",
@@ -8191,7 +8189,7 @@ dependencies = [
 [[package]]
 name = "pezcumulus-client-service"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-channel 1.9.0",
  "futures",
@@ -8234,7 +8232,7 @@ dependencies = [
 [[package]]
 name = "pezcumulus-client-teyrchain-inherent"
 version = "0.1.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-trait",
  "parity-scale-codec",
@@ -8256,7 +8254,7 @@ dependencies = [
 [[package]]
 name = "pezcumulus-pezpallet-aura-ext"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezcumulus-pezpallet-teyrchain-system",
@@ -8273,7 +8271,7 @@ dependencies = [
 [[package]]
 name = "pezcumulus-pezpallet-dmp-queue"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -8290,7 +8288,7 @@ dependencies = [
 [[package]]
 name = "pezcumulus-pezpallet-session-benchmarking"
 version = "9.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezframe-benchmarking",
@@ -8303,7 +8301,7 @@ dependencies = [
 [[package]]
 name = "pezcumulus-pezpallet-solo-to-para"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezcumulus-pezpallet-teyrchain-system",
@@ -8318,7 +8316,7 @@ dependencies = [
 [[package]]
 name = "pezcumulus-pezpallet-teyrchain-system"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "array-bytes",
  "bytes",
@@ -8356,7 +8354,7 @@ dependencies = [
 [[package]]
 name = "pezcumulus-pezpallet-teyrchain-system-proc-macro"
 version = "0.6.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "proc-macro-crate 3.3.0",
  "proc-macro2",
@@ -8367,7 +8365,7 @@ dependencies = [
 [[package]]
 name = "pezcumulus-pezpallet-weight-reclaim"
 version = "1.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "derive-where",
  "docify",
@@ -8386,7 +8384,7 @@ dependencies = [
 [[package]]
 name = "pezcumulus-pezpallet-xcm"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezcumulus-primitives-core",
@@ -8401,7 +8399,7 @@ dependencies = [
 [[package]]
 name = "pezcumulus-pezpallet-xcmp-queue"
 version = "0.7.1"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "approx",
  "bounded-collections 0.3.2",
@@ -8427,7 +8425,7 @@ dependencies = [
 [[package]]
 name = "pezcumulus-ping"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezcumulus-pezpallet-xcm",
@@ -8442,7 +8440,7 @@ dependencies = [
 [[package]]
 name = "pezcumulus-primitives-aura"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "pezsp-api",
  "pezsp-consensus-aura",
@@ -8451,7 +8449,7 @@ dependencies = [
 [[package]]
 name = "pezcumulus-primitives-core"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezkuwi-core-primitives",
@@ -8468,7 +8466,7 @@ dependencies = [
 [[package]]
 name = "pezcumulus-primitives-proof-size-hostfunction"
 version = "0.2.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "pezsp-externalities",
  "pezsp-runtime-interface",
@@ -8478,7 +8476,7 @@ dependencies = [
 [[package]]
 name = "pezcumulus-primitives-storage-weight-reclaim"
 version = "1.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "docify",
  "log",
@@ -8495,7 +8493,7 @@ dependencies = [
 [[package]]
 name = "pezcumulus-primitives-teyrchain-inherent"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-trait",
  "parity-scale-codec",
@@ -8509,7 +8507,7 @@ dependencies = [
 [[package]]
 name = "pezcumulus-primitives-timestamp"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "pezcumulus-primitives-core",
  "pezsp-inherents",
@@ -8519,7 +8517,7 @@ dependencies = [
 [[package]]
 name = "pezcumulus-primitives-utility"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -8536,7 +8534,7 @@ dependencies = [
 [[package]]
 name = "pezcumulus-relay-chain-inprocess-interface"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-channel 1.9.0",
  "async-trait",
@@ -8564,7 +8562,7 @@ dependencies = [
 [[package]]
 name = "pezcumulus-relay-chain-interface"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-trait",
  "futures",
@@ -8584,7 +8582,7 @@ dependencies = [
 [[package]]
 name = "pezcumulus-relay-chain-minimal-node"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "array-bytes",
  "async-channel 1.9.0",
@@ -8620,7 +8618,7 @@ dependencies = [
 [[package]]
 name = "pezcumulus-relay-chain-rpc-interface"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-trait",
  "bizinikiwi-prometheus-endpoint",
@@ -8653,7 +8651,7 @@ dependencies = [
 [[package]]
 name = "pezcumulus-relay-chain-streams"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "futures",
  "pezcumulus-relay-chain-interface",
@@ -8667,7 +8665,7 @@ dependencies = [
 [[package]]
 name = "pezcumulus-test-relay-sproof-builder"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezcumulus-primitives-core",
@@ -8680,7 +8678,7 @@ dependencies = [
 [[package]]
 name = "pezframe-benchmarking"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "linregress",
  "log",
@@ -8704,7 +8702,7 @@ dependencies = [
 [[package]]
 name = "pezframe-benchmarking-cli"
 version = "32.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "Inflector",
  "array-bytes",
@@ -8769,7 +8767,7 @@ dependencies = [
 [[package]]
 name = "pezframe-benchmarking-pezpallet-pov"
 version = "18.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezframe-benchmarking",
@@ -8783,7 +8781,7 @@ dependencies = [
 [[package]]
 name = "pezframe-election-provider-solution-type"
 version = "13.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "proc-macro-crate 3.3.0",
  "proc-macro2",
@@ -8794,7 +8792,7 @@ dependencies = [
 [[package]]
 name = "pezframe-election-provider-support"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezframe-election-provider-solution-type",
@@ -8811,7 +8809,7 @@ dependencies = [
 [[package]]
 name = "pezframe-executive"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "aquamarine",
  "log",
@@ -8829,7 +8827,7 @@ dependencies = [
 [[package]]
 name = "pezframe-metadata"
 version = "23.0.1"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "cfg-if",
  "parity-scale-codec",
@@ -8840,7 +8838,7 @@ dependencies = [
 [[package]]
 name = "pezframe-metadata-hash-extension"
 version = "0.1.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "array-bytes",
  "const-hex",
@@ -8856,7 +8854,7 @@ dependencies = [
 [[package]]
 name = "pezframe-support"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "aquamarine",
  "array-bytes",
@@ -8897,7 +8895,7 @@ dependencies = [
 [[package]]
 name = "pezframe-support-procedural"
 version = "23.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "Inflector",
  "cfg-expr",
@@ -8917,7 +8915,7 @@ dependencies = [
 [[package]]
 name = "pezframe-support-procedural-tools"
 version = "10.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "pezframe-support-procedural-tools-derive",
  "proc-macro-crate 3.3.0",
@@ -8929,7 +8927,7 @@ dependencies = [
 [[package]]
 name = "pezframe-support-procedural-tools-derive"
 version = "11.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -8939,7 +8937,7 @@ dependencies = [
 [[package]]
 name = "pezframe-system"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "cfg-if",
  "docify",
@@ -8958,7 +8956,7 @@ dependencies = [
 [[package]]
 name = "pezframe-system-benchmarking"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezframe-benchmarking",
@@ -8972,7 +8970,7 @@ dependencies = [
 [[package]]
 name = "pezframe-system-rpc-runtime-api"
 version = "26.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "docify",
  "parity-scale-codec",
@@ -8982,7 +8980,7 @@ dependencies = [
 [[package]]
 name = "pezframe-try-runtime"
 version = "0.34.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezframe-support",
@@ -8993,7 +8991,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-approval-distribution"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "futures",
  "futures-timer",
@@ -9011,7 +9009,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-availability-bitfield-distribution"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "futures",
  "futures-timer",
@@ -9026,7 +9024,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-availability-distribution"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "fatality",
  "futures",
@@ -9049,7 +9047,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-availability-recovery"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-trait",
  "fatality",
@@ -9082,7 +9080,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-cli"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bizinikiwi-build-script-utils",
  "clap",
@@ -9107,7 +9105,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-collator-protocol"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bitvec",
  "fatality",
@@ -9130,7 +9128,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-core-primitives"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezsp-core",
@@ -9141,7 +9139,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-dispute-distribution"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "fatality",
  "futures",
@@ -9163,7 +9161,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-erasure-coding"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezkuwi-pez-node-primitives",
@@ -9177,7 +9175,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-gossip-support"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "futures",
  "futures-timer",
@@ -9198,7 +9196,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-network-bridge"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "always-assert",
  "async-trait",
@@ -9221,7 +9219,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-node-collation-generation"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "futures",
  "parity-scale-codec",
@@ -9239,7 +9237,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-node-core-approval-voting"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-trait",
  "bitvec",
@@ -9271,7 +9269,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-node-core-approval-voting-parallel"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-trait",
  "futures",
@@ -9295,7 +9293,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-node-core-av-store"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bitvec",
  "futures",
@@ -9314,7 +9312,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-node-core-backing"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bitvec",
  "fatality",
@@ -9335,7 +9333,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-node-core-bitfield-signing"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "futures",
  "pez-tracing-gum",
@@ -9350,7 +9348,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-node-core-candidate-validation"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-trait",
  "futures",
@@ -9372,7 +9370,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-node-core-chain-api"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "futures",
  "pez-tracing-gum",
@@ -9386,7 +9384,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-node-core-chain-selection"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "futures",
  "futures-timer",
@@ -9402,7 +9400,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-node-core-dispute-coordinator"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "fatality",
  "futures",
@@ -9420,7 +9418,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-node-core-prospective-teyrchains"
 version = "6.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "fatality",
  "futures",
@@ -9434,7 +9432,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-node-core-provisioner"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bitvec",
  "fatality",
@@ -9453,7 +9451,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-node-core-pvf"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "always-assert",
  "array-bytes",
@@ -9481,7 +9479,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-node-core-pvf-checker"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "futures",
  "pez-tracing-gum",
@@ -9494,7 +9492,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-node-core-pvf-common"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "cpu-time",
  "futures",
@@ -9521,7 +9519,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-node-core-pvf-execute-worker"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "cfg-if",
  "cpu-time",
@@ -9539,7 +9537,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-node-core-pvf-prepare-worker"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "cfg-if",
  "libc",
@@ -9557,7 +9555,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-node-core-runtime-api"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "futures",
  "pez-tracing-gum",
@@ -9572,7 +9570,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-node-core-teyrchains-inherent"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-trait",
  "futures",
@@ -9589,7 +9587,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-node-metrics"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bizinikiwi-prometheus-endpoint",
  "bs58",
@@ -9606,7 +9604,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-node-network-protocol"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-channel 1.9.0",
  "async-trait",
@@ -9631,7 +9629,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-node-subsystem"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "pezkuwi-node-subsystem-types",
  "pezkuwi-overseer",
@@ -9640,7 +9638,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-node-subsystem-types"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-trait",
  "bizinikiwi-prometheus-endpoint",
@@ -9668,7 +9666,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-node-subsystem-util"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "fatality",
  "futures",
@@ -9698,7 +9696,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-omni-node-lib"
 version = "0.1.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-trait",
  "bizinikiwi-frame-rpc-system",
@@ -9783,7 +9781,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-overseer"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-trait",
  "futures",
@@ -9803,7 +9801,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-pez-node-primitives"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bitvec",
  "bounded-vec",
@@ -9827,7 +9825,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-primitives"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bitvec",
  "bounded-collections 0.3.2",
@@ -9856,7 +9854,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-primitives-test-helpers"
 version = "1.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezkuwi-primitives",
@@ -9871,7 +9869,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-rpc"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bizinikiwi-frame-rpc-system",
  "bizinikiwi-state-trie-migration-rpc",
@@ -9904,7 +9902,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-runtime-common"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bitvec",
  "impl-trait-for-tuples",
@@ -9954,7 +9952,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-runtime-metrics"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bs58",
  "parity-scale-codec",
@@ -9966,7 +9964,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-runtime-teyrchains"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bitflags 1.3.2",
  "bitvec",
@@ -10013,7 +10011,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-sdk"
 version = "0.1.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "asset-test-pezutils",
  "assets-common",
@@ -10399,7 +10397,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-sdk-frame"
 version = "0.1.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "docify",
  "log",
@@ -10434,7 +10432,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-service"
 version = "7.0.1"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-trait",
  "bizinikiwi-prometheus-endpoint",
@@ -10540,7 +10538,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-ss58-registry"
 version = "1.51.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "Inflector",
  "num-format",
@@ -10554,7 +10552,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-statement-distribution"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bitvec",
  "fatality",
@@ -10574,7 +10572,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-statement-table"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pez-tracing-gum",
@@ -10584,7 +10582,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-subxt"
 version = "0.44.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-trait",
  "derive-where",
@@ -10620,7 +10618,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-subxt-codegen"
 version = "0.44.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "heck 0.5.0",
  "parity-scale-codec",
@@ -10636,7 +10634,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-subxt-core"
 version = "0.44.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "base58",
  "blake2 0.10.6",
@@ -10665,7 +10663,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-subxt-lightclient"
 version = "0.44.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "futures",
  "futures-util",
@@ -10681,7 +10679,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-subxt-macro"
 version = "0.44.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "darling 0.20.11",
  "parity-scale-codec",
@@ -10697,7 +10695,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-subxt-metadata"
 version = "0.44.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "frame-decode",
  "frame-metadata",
@@ -10713,7 +10711,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-subxt-rpcs"
 version = "0.44.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "derive-where",
  "frame-metadata",
@@ -10736,7 +10734,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-subxt-signer"
 version = "0.44.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "base64 0.22.1",
  "bip32",
@@ -10766,7 +10764,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-subxt-utils-fetchmetadata"
 version = "0.44.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "hex",
  "parity-scale-codec",
@@ -10776,7 +10774,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-subxt-utils-stripmetadata"
 version = "0.44.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "either",
  "frame-metadata",
@@ -10787,7 +10785,7 @@ dependencies = [
 [[package]]
 name = "pezkuwi-teyrchain-primitives"
 version = "6.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "array-bytes",
  "bounded-collections 0.3.2",
@@ -10804,7 +10802,7 @@ dependencies = [
 [[package]]
 name = "pezkuwichain-runtime-constants"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "pezframe-support",
  "pezkuwi-primitives",
@@ -10820,7 +10818,7 @@ dependencies = [
 [[package]]
 name = "pezmmr-gadget"
 version = "29.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "futures",
  "log",
@@ -10839,7 +10837,7 @@ dependencies = [
 [[package]]
 name = "pezmmr-rpc"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "jsonrpsee",
  "parity-scale-codec",
@@ -10854,7 +10852,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-alliance"
 version = "27.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -10873,7 +10871,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-asset-conversion"
 version = "10.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -10891,7 +10889,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-asset-conversion-ops"
 version = "0.1.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -10909,7 +10907,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-asset-conversion-tx-payment"
 version = "10.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezframe-benchmarking",
@@ -10924,7 +10922,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-asset-rate"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezframe-benchmarking",
@@ -10938,7 +10936,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-asset-rewards"
 version = "0.1.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezframe-benchmarking",
@@ -10956,7 +10954,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-asset-tx-payment"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezframe-benchmarking",
@@ -10972,7 +10970,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-assets"
 version = "29.1.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "impl-trait-for-tuples",
  "log",
@@ -10988,7 +10986,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-assets-freezer"
 version = "0.1.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -11000,7 +10998,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-assets-holder"
 version = "0.1.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -11015,7 +11013,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-assets-precompiles"
 version = "0.1.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "pez-ethereum-standards",
  "pezframe-support",
@@ -11026,7 +11024,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-atomic-swap"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezkuwi-sdk-frame",
@@ -11036,7 +11034,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-aura"
 version = "27.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -11052,7 +11050,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-authority-discovery"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezframe-support",
@@ -11067,7 +11065,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-authorship"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "impl-trait-for-tuples",
  "parity-scale-codec",
@@ -11080,7 +11078,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-babe"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -11103,7 +11101,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-bags-list"
 version = "27.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "aquamarine",
  "docify",
@@ -11124,7 +11122,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-balances"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "docify",
  "log",
@@ -11140,7 +11138,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-beefy"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -11159,7 +11157,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-beefy-mmr"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "array-bytes",
  "binary-merkle-tree",
@@ -11184,7 +11182,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-bounties"
 version = "27.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -11201,7 +11199,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-bridge-grandpa"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bp-header-pez-chain",
  "bp-test-utils",
@@ -11220,7 +11218,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-bridge-messages"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bp-header-pez-chain",
  "bp-messages",
@@ -11239,7 +11237,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-bridge-relayers"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bp-header-pez-chain",
  "bp-messages",
@@ -11262,7 +11260,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-bridge-teyrchains"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bp-header-pez-chain",
  "bp-pezkuwi-core",
@@ -11282,7 +11280,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-broker"
 version = "0.6.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bitvec",
  "log",
@@ -11300,7 +11298,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-child-bounties"
 version = "27.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -11318,7 +11316,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-collator-selection"
 version = "9.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -11337,7 +11335,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-collective"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "docify",
  "log",
@@ -11354,7 +11352,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-collective-content"
 version = "0.6.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezframe-benchmarking",
@@ -11368,7 +11366,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-contracts"
 version = "27.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "environmental",
  "impl-trait-for-tuples",
@@ -11399,7 +11397,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-contracts-mock-network"
 version = "3.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezframe-support",
@@ -11430,7 +11428,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-contracts-proc-macro"
 version = "18.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -11440,7 +11438,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-contracts-uapi"
 version = "5.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bitflags 1.3.2",
  "parity-scale-codec",
@@ -11451,7 +11449,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-conviction-voting"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "assert_matches",
  "parity-scale-codec",
@@ -11467,7 +11465,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-core-fellowship"
 version = "12.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -11485,7 +11483,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-delegated-staking"
 version = "1.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -11500,7 +11498,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-democracy"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -11517,7 +11515,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-derivatives"
 version = "1.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -11537,7 +11535,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-dummy-dim"
 version = "1.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -11555,7 +11553,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-election-provider-multi-block"
 version = "0.9.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -11576,7 +11574,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-election-provider-multi-phase"
 version = "27.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -11597,7 +11595,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-election-provider-support-benchmarking"
 version = "27.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezframe-benchmarking",
@@ -11610,7 +11608,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-elections-phragmen"
 version = "29.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -11628,7 +11626,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-fast-unstake"
 version = "27.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "docify",
  "log",
@@ -11646,7 +11644,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-glutton"
 version = "14.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "blake2 0.10.6",
  "log",
@@ -11664,7 +11662,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-grandpa"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -11686,7 +11684,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-identity"
 version = "29.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "enumflags2",
  "log",
@@ -11702,7 +11700,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-im-online"
 version = "27.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -11721,7 +11719,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-indices"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezframe-benchmarking",
@@ -11736,7 +11734,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-insecure-randomness-collective-flip"
 version = "16.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezkuwi-sdk-frame",
@@ -11747,7 +11745,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-lottery"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezframe-benchmarking",
@@ -11760,7 +11758,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-membership"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -11776,7 +11774,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-message-queue"
 version = "31.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "environmental",
  "log",
@@ -11795,7 +11793,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-meta-tx"
 version = "0.1.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "docify",
  "parity-scale-codec",
@@ -11813,7 +11811,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-migrations"
 version = "1.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "docify",
  "impl-trait-for-tuples",
@@ -11834,8 +11832,6 @@ name = "pezpallet-minimal-template"
 version = "0.1.0"
 dependencies = [
  "parity-scale-codec",
- "pezframe-support",
- "pezframe-system",
  "pezkuwi-sdk",
  "scale-info",
 ]
@@ -11843,7 +11839,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-mixnet"
 version = "0.4.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -11857,7 +11853,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-mmr"
 version = "27.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -11869,7 +11865,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-multi-asset-bounties"
 version = "1.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "docify",
  "log",
@@ -11886,7 +11882,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-multisig"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -11897,7 +11893,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-nft-fractionalization"
 version = "10.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -11910,7 +11906,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-nfts"
 version = "22.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "enumflags2",
  "log",
@@ -11927,7 +11923,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-nfts-runtime-api"
 version = "14.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezsp-api",
@@ -11936,7 +11932,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-nis"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezkuwi-sdk-frame",
@@ -11946,7 +11942,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-node-authorization"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -11957,7 +11953,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-nomination-pools"
 version = "25.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -11975,7 +11971,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-nomination-pools-benchmarking"
 version = "26.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezframe-benchmarking",
@@ -11995,7 +11991,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-nomination-pools-runtime-api"
 version = "23.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezpallet-nomination-pools",
@@ -12005,7 +12001,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-offences"
 version = "27.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -12020,7 +12016,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-offences-benchmarking"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -12043,7 +12039,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-oracle"
 version = "1.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "impl-trait-for-tuples",
  "parity-scale-codec",
@@ -12061,7 +12057,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-oracle-runtime-api"
 version = "1.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezsp-api",
@@ -12072,7 +12068,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-origin-restriction"
 version = "1.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -12090,7 +12086,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-paged-list"
 version = "0.6.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "docify",
  "parity-scale-codec",
@@ -12102,7 +12098,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-parameters"
 version = "0.1.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "docify",
  "parity-scale-codec",
@@ -12119,7 +12115,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-people"
 version = "1.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -12137,7 +12133,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-preimage"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -12153,7 +12149,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-proxy"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezkuwi-sdk-frame",
@@ -12163,7 +12159,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-ranked-collective"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "impl-trait-for-tuples",
  "log",
@@ -12181,7 +12177,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-recovery"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezkuwi-sdk-frame",
@@ -12191,7 +12187,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-referenda"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "assert_matches",
  "log",
@@ -12209,7 +12205,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-remark"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezframe-benchmarking",
@@ -12225,7 +12221,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-revive"
 version = "0.1.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "alloy-consensus",
  "alloy-core",
@@ -12277,7 +12273,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-revive-fixtures"
 version = "0.1.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "alloy-core",
  "anyhow",
@@ -12294,7 +12290,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-revive-proc-macro"
 version = "0.1.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -12304,7 +12300,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-revive-uapi"
 version = "0.1.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "alloy-core",
  "bitflags 1.3.2",
@@ -12319,7 +12315,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-root-offences"
 version = "25.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezframe-support",
@@ -12335,7 +12331,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-safe-mode"
 version = "9.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "docify",
  "parity-scale-codec",
@@ -12349,7 +12345,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-salary"
 version = "13.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -12361,7 +12357,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-scheduler"
 version = "29.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "docify",
  "log",
@@ -12378,7 +12374,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-scored-pool"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezframe-support",
@@ -12391,7 +12387,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-session"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "impl-trait-for-tuples",
  "log",
@@ -12413,7 +12409,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-session-benchmarking"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezframe-benchmarking",
@@ -12429,7 +12425,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-skip-feeless-payment"
 version = "3.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezframe-support",
@@ -12441,7 +12437,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-society"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -12458,7 +12454,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-staking"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -12479,7 +12475,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-staking-async"
 version = "0.1.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -12503,7 +12499,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-staking-async-ah-client"
 version = "0.1.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -12523,7 +12519,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-staking-async-rc-client"
 version = "0.1.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "impl-trait-for-tuples",
  "log",
@@ -12540,7 +12536,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-staking-async-reward-fn"
 version = "19.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "pezsp-arithmetic",
@@ -12549,7 +12545,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-staking-async-runtime-api"
 version = "14.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezsp-api",
@@ -12559,7 +12555,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-staking-reward-fn"
 version = "19.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "pezsp-arithmetic",
@@ -12568,7 +12564,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-staking-runtime-api"
 version = "14.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezsp-api",
@@ -12578,7 +12574,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-state-trie-migration"
 version = "29.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -12594,7 +12590,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-statement"
 version = "10.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -12611,7 +12607,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-sudo"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "docify",
  "parity-scale-codec",
@@ -12626,7 +12622,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-timestamp"
 version = "27.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "docify",
  "log",
@@ -12644,7 +12640,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-tips"
 version = "27.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -12662,7 +12658,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-transaction-payment"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -12678,7 +12674,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-transaction-payment-rpc"
 version = "30.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "jsonrpsee",
  "parity-scale-codec",
@@ -12694,7 +12690,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-transaction-payment-rpc-runtime-api"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezpallet-transaction-payment",
@@ -12706,7 +12702,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-transaction-storage"
 version = "27.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "array-bytes",
  "log",
@@ -12726,7 +12722,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-treasury"
 version = "27.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "docify",
  "impl-trait-for-tuples",
@@ -12745,7 +12741,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-tx-pause"
 version = "9.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "docify",
  "parity-scale-codec",
@@ -12756,7 +12752,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-uniques"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -12770,7 +12766,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-utility"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezframe-benchmarking",
@@ -12785,7 +12781,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-verify-signature"
 version = "1.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezframe-benchmarking",
@@ -12800,7 +12796,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-vesting"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -12814,7 +12810,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-whitelist"
 version = "27.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezkuwi-sdk-frame",
@@ -12824,7 +12820,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-xcm"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bounded-collections 0.3.2",
  "hex-literal",
@@ -12848,7 +12844,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-xcm-bridge-hub"
 version = "0.2.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bp-messages",
  "bp-xcm-bridge-hub",
@@ -12870,7 +12866,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-xcm-bridge-hub-router"
 version = "0.5.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bp-xcm-bridge-hub-router",
  "parity-scale-codec",
@@ -12890,7 +12886,7 @@ dependencies = [
 [[package]]
 name = "pezpallet-xcm-precompiles"
 version = "0.1.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezframe-support",
@@ -12904,7 +12900,7 @@ dependencies = [
 [[package]]
 name = "pezsc-allocator"
 version = "23.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "pezsp-core",
@@ -12915,7 +12911,7 @@ dependencies = [
 [[package]]
 name = "pezsc-authority-discovery"
 version = "0.34.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-trait",
  "bizinikiwi-prometheus-endpoint",
@@ -12947,7 +12943,7 @@ dependencies = [
 [[package]]
 name = "pezsc-basic-authorship"
 version = "0.34.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bizinikiwi-prometheus-endpoint",
  "futures",
@@ -12969,7 +12965,7 @@ dependencies = [
 [[package]]
 name = "pezsc-block-builder"
 version = "0.33.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezsp-api",
@@ -12984,7 +12980,7 @@ dependencies = [
 [[package]]
 name = "pezsc-chain-spec"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "array-bytes",
  "clap",
@@ -13011,7 +13007,7 @@ dependencies = [
 [[package]]
 name = "pezsc-chain-spec-derive"
 version = "11.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "proc-macro-crate 3.3.0",
  "proc-macro2",
@@ -13022,7 +13018,7 @@ dependencies = [
 [[package]]
 name = "pezsc-cli"
 version = "0.36.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "array-bytes",
  "bip39",
@@ -13064,7 +13060,7 @@ dependencies = [
 [[package]]
 name = "pezsc-client-api"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bizinikiwi-prometheus-endpoint",
  "fnv",
@@ -13090,7 +13086,7 @@ dependencies = [
 [[package]]
 name = "pezsc-client-db"
 version = "0.35.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bizinikiwi-prometheus-endpoint",
  "hash-db",
@@ -13118,7 +13114,7 @@ dependencies = [
 [[package]]
 name = "pezsc-consensus"
 version = "0.33.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-trait",
  "bizinikiwi-prometheus-endpoint",
@@ -13141,7 +13137,7 @@ dependencies = [
 [[package]]
 name = "pezsc-consensus-aura"
 version = "0.34.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-trait",
  "bizinikiwi-prometheus-endpoint",
@@ -13172,7 +13168,7 @@ dependencies = [
 [[package]]
 name = "pezsc-consensus-babe"
 version = "0.34.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-trait",
  "bizinikiwi-prometheus-endpoint",
@@ -13209,7 +13205,7 @@ dependencies = [
 [[package]]
 name = "pezsc-consensus-babe-rpc"
 version = "0.34.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "futures",
  "jsonrpsee",
@@ -13231,7 +13227,7 @@ dependencies = [
 [[package]]
 name = "pezsc-consensus-beefy"
 version = "13.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "array-bytes",
  "async-channel 1.9.0",
@@ -13265,7 +13261,7 @@ dependencies = [
 [[package]]
 name = "pezsc-consensus-beefy-rpc"
 version = "13.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "futures",
  "jsonrpsee",
@@ -13285,7 +13281,7 @@ dependencies = [
 [[package]]
 name = "pezsc-consensus-epochs"
 version = "0.33.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pez-fork-tree",
@@ -13298,7 +13294,7 @@ dependencies = [
 [[package]]
 name = "pezsc-consensus-grandpa"
 version = "0.19.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "ahash 0.8.12",
  "array-bytes",
@@ -13342,7 +13338,7 @@ dependencies = [
 [[package]]
 name = "pezsc-consensus-grandpa-rpc"
 version = "0.19.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "finality-grandpa",
  "futures",
@@ -13362,7 +13358,7 @@ dependencies = [
 [[package]]
 name = "pezsc-consensus-manual-seal"
 version = "0.35.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "assert_matches",
  "async-trait",
@@ -13397,7 +13393,7 @@ dependencies = [
 [[package]]
 name = "pezsc-consensus-pow"
 version = "0.33.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-trait",
  "bizinikiwi-prometheus-endpoint",
@@ -13422,7 +13418,7 @@ dependencies = [
 [[package]]
 name = "pezsc-consensus-slots"
 version = "0.33.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-trait",
  "futures",
@@ -13445,7 +13441,7 @@ dependencies = [
 [[package]]
 name = "pezsc-executor"
 version = "0.32.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "parking_lot 0.12.3",
@@ -13468,7 +13464,7 @@ dependencies = [
 [[package]]
 name = "pezsc-executor-common"
 version = "0.29.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "pezsc-allocator",
  "pezsp-maybe-compressed-blob",
@@ -13481,7 +13477,7 @@ dependencies = [
 [[package]]
 name = "pezsc-executor-polkavm"
 version = "0.29.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "pezsc-executor-common",
@@ -13492,7 +13488,7 @@ dependencies = [
 [[package]]
 name = "pezsc-executor-wasmtime"
 version = "0.29.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "anyhow",
  "log",
@@ -13508,7 +13504,7 @@ dependencies = [
 [[package]]
 name = "pezsc-informant"
 version = "0.33.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "console",
  "futures",
@@ -13524,7 +13520,7 @@ dependencies = [
 [[package]]
 name = "pezsc-keystore"
 version = "25.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "array-bytes",
  "parking_lot 0.12.3",
@@ -13538,7 +13534,7 @@ dependencies = [
 [[package]]
 name = "pezsc-mixnet"
 version = "0.4.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "array-bytes",
  "arrayvec 0.7.6",
@@ -13566,7 +13562,7 @@ dependencies = [
 [[package]]
 name = "pezsc-network"
 version = "0.34.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "array-bytes",
  "async-channel 1.9.0",
@@ -13616,7 +13612,7 @@ dependencies = [
 [[package]]
 name = "pezsc-network-common"
 version = "0.33.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bitflags 1.3.2",
  "parity-scale-codec",
@@ -13626,7 +13622,7 @@ dependencies = [
 [[package]]
 name = "pezsc-network-gossip"
 version = "0.34.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "ahash 0.8.12",
  "bizinikiwi-prometheus-endpoint",
@@ -13645,7 +13641,7 @@ dependencies = [
 [[package]]
 name = "pezsc-network-light"
 version = "0.33.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "array-bytes",
  "async-channel 1.9.0",
@@ -13666,7 +13662,7 @@ dependencies = [
 [[package]]
 name = "pezsc-network-statement"
 version = "0.16.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "array-bytes",
  "async-channel 1.9.0",
@@ -13687,7 +13683,7 @@ dependencies = [
 [[package]]
 name = "pezsc-network-sync"
 version = "0.33.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "array-bytes",
  "async-channel 1.9.0",
@@ -13722,7 +13718,7 @@ dependencies = [
 [[package]]
 name = "pezsc-network-transactions"
 version = "0.33.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "array-bytes",
  "bizinikiwi-prometheus-endpoint",
@@ -13741,7 +13737,7 @@ dependencies = [
 [[package]]
 name = "pezsc-network-types"
 version = "0.10.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bs58",
  "bytes",
@@ -13762,7 +13758,7 @@ dependencies = [
 [[package]]
 name = "pezsc-offchain"
 version = "29.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bytes",
  "fnv",
@@ -13796,7 +13792,7 @@ dependencies = [
 [[package]]
 name = "pezsc-proposer-metrics"
 version = "0.17.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bizinikiwi-prometheus-endpoint",
  "log",
@@ -13805,7 +13801,7 @@ dependencies = [
 [[package]]
 name = "pezsc-rpc"
 version = "29.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "futures",
  "jsonrpsee",
@@ -13837,7 +13833,7 @@ dependencies = [
 [[package]]
 name = "pezsc-rpc-api"
 version = "0.33.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "jsonrpsee",
  "parity-scale-codec",
@@ -13857,7 +13853,7 @@ dependencies = [
 [[package]]
 name = "pezsc-rpc-server"
 version = "11.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bizinikiwi-prometheus-endpoint",
  "dyn-clone",
@@ -13881,7 +13877,7 @@ dependencies = [
 [[package]]
 name = "pezsc-rpc-spec-v2"
 version = "0.34.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "array-bytes",
  "bizinikiwi-prometheus-endpoint",
@@ -13914,7 +13910,7 @@ dependencies = [
 [[package]]
 name = "pezsc-runtime-utilities"
 version = "0.1.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezsc-executor",
@@ -13929,7 +13925,7 @@ dependencies = [
 [[package]]
 name = "pezsc-service"
 version = "0.35.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-trait",
  "bizinikiwi-prometheus-endpoint",
@@ -13993,7 +13989,7 @@ dependencies = [
 [[package]]
 name = "pezsc-state-db"
 version = "0.30.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -14004,7 +14000,7 @@ dependencies = [
 [[package]]
 name = "pezsc-statement-store"
 version = "10.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bizinikiwi-prometheus-endpoint",
  "log",
@@ -14024,7 +14020,7 @@ dependencies = [
 [[package]]
 name = "pezsc-storage-monitor"
 version = "0.16.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "clap",
  "fs4",
@@ -14037,7 +14033,7 @@ dependencies = [
 [[package]]
 name = "pezsc-sync-state-rpc"
 version = "0.34.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "jsonrpsee",
  "parity-scale-codec",
@@ -14056,7 +14052,7 @@ dependencies = [
 [[package]]
 name = "pezsc-sysinfo"
 version = "27.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "derive_more 0.99.20",
  "futures",
@@ -14076,7 +14072,7 @@ dependencies = [
 [[package]]
 name = "pezsc-telemetry"
 version = "15.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "chrono",
  "futures",
@@ -14095,7 +14091,7 @@ dependencies = [
 [[package]]
 name = "pezsc-tracing"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "chrono",
  "console",
@@ -14123,7 +14119,7 @@ dependencies = [
 [[package]]
 name = "pezsc-tracing-proc-macro"
 version = "11.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "proc-macro-crate 3.3.0",
  "proc-macro2",
@@ -14134,7 +14130,7 @@ dependencies = [
 [[package]]
 name = "pezsc-transaction-pool"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-trait",
  "bizinikiwi-prometheus-endpoint",
@@ -14165,7 +14161,7 @@ dependencies = [
 [[package]]
 name = "pezsc-transaction-pool-api"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-trait",
  "futures",
@@ -14182,7 +14178,7 @@ dependencies = [
 [[package]]
 name = "pezsc-utils"
 version = "14.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-channel 1.9.0",
  "futures",
@@ -14196,7 +14192,7 @@ dependencies = [
 [[package]]
 name = "pezsnowbridge-core"
 version = "0.2.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bp-relayers",
  "hex-literal",
@@ -14220,7 +14216,7 @@ dependencies = [
 [[package]]
 name = "pezsp-api"
 version = "26.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "docify",
  "hash-db",
@@ -14242,7 +14238,7 @@ dependencies = [
 [[package]]
 name = "pezsp-api-proc-macro"
 version = "15.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "Inflector",
  "blake2 0.10.6",
@@ -14256,7 +14252,7 @@ dependencies = [
 [[package]]
 name = "pezsp-application-crypto"
 version = "30.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezsp-core",
@@ -14268,7 +14264,7 @@ dependencies = [
 [[package]]
 name = "pezsp-arithmetic"
 version = "23.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "docify",
  "integer-sqrt",
@@ -14282,7 +14278,7 @@ dependencies = [
 [[package]]
 name = "pezsp-authority-discovery"
 version = "26.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezsp-api",
@@ -14294,7 +14290,7 @@ dependencies = [
 [[package]]
 name = "pezsp-block-builder"
 version = "26.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "pezsp-api",
  "pezsp-inherents",
@@ -14304,7 +14300,7 @@ dependencies = [
 [[package]]
 name = "pezsp-blockchain"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "futures",
  "parity-scale-codec",
@@ -14323,7 +14319,7 @@ dependencies = [
 [[package]]
 name = "pezsp-consensus"
 version = "0.32.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-trait",
  "futures",
@@ -14337,7 +14333,7 @@ dependencies = [
 [[package]]
 name = "pezsp-consensus-aura"
 version = "0.32.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-trait",
  "parity-scale-codec",
@@ -14353,7 +14349,7 @@ dependencies = [
 [[package]]
 name = "pezsp-consensus-babe"
 version = "0.32.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-trait",
  "parity-scale-codec",
@@ -14371,7 +14367,7 @@ dependencies = [
 [[package]]
 name = "pezsp-consensus-beefy"
 version = "13.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezsp-api",
@@ -14391,7 +14387,7 @@ dependencies = [
 [[package]]
 name = "pezsp-consensus-grandpa"
 version = "13.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "finality-grandpa",
  "log",
@@ -14408,7 +14404,7 @@ dependencies = [
 [[package]]
 name = "pezsp-consensus-pow"
 version = "0.32.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezsp-api",
@@ -14419,7 +14415,7 @@ dependencies = [
 [[package]]
 name = "pezsp-consensus-slots"
 version = "0.32.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezsp-timestamp",
@@ -14430,7 +14426,7 @@ dependencies = [
 [[package]]
 name = "pezsp-core"
 version = "28.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "ark-vrf",
  "array-bytes",
@@ -14477,7 +14473,7 @@ dependencies = [
 [[package]]
 name = "pezsp-core-hashing"
 version = "15.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "pezsp-crypto-hashing",
 ]
@@ -14485,7 +14481,7 @@ dependencies = [
 [[package]]
 name = "pezsp-core-hashing-proc-macro"
 version = "15.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "pezsp-crypto-hashing-proc-macro",
 ]
@@ -14493,7 +14489,7 @@ dependencies = [
 [[package]]
 name = "pezsp-crypto-ec-utils"
 version = "0.10.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "ark-bls12-377 0.5.0",
  "ark-bls12-377-ext",
@@ -14513,7 +14509,7 @@ dependencies = [
 [[package]]
 name = "pezsp-crypto-hashing"
 version = "0.1.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "blake2b_simd",
  "byteorder",
@@ -14526,7 +14522,7 @@ dependencies = [
 [[package]]
 name = "pezsp-crypto-hashing-proc-macro"
 version = "0.1.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "pezsp-crypto-hashing",
  "quote",
@@ -14536,7 +14532,7 @@ dependencies = [
 [[package]]
 name = "pezsp-database"
 version = "10.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "kvdb",
  "parking_lot 0.12.3",
@@ -14545,7 +14541,7 @@ dependencies = [
 [[package]]
 name = "pezsp-debug-derive"
 version = "14.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -14555,7 +14551,7 @@ dependencies = [
 [[package]]
 name = "pezsp-externalities"
 version = "0.25.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "environmental",
  "parity-scale-codec",
@@ -14565,7 +14561,7 @@ dependencies = [
 [[package]]
 name = "pezsp-genesis-builder"
 version = "0.8.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezsp-api",
@@ -14577,7 +14573,7 @@ dependencies = [
 [[package]]
 name = "pezsp-inherents"
 version = "26.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-trait",
  "impl-trait-for-tuples",
@@ -14590,7 +14586,7 @@ dependencies = [
 [[package]]
 name = "pezsp-io"
 version = "30.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bytes",
  "docify",
@@ -14616,7 +14612,7 @@ dependencies = [
 [[package]]
 name = "pezsp-keyring"
 version = "31.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "pezsp-core",
  "pezsp-runtime",
@@ -14626,7 +14622,7 @@ dependencies = [
 [[package]]
 name = "pezsp-keystore"
 version = "0.34.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "parking_lot 0.12.3",
@@ -14637,7 +14633,7 @@ dependencies = [
 [[package]]
 name = "pezsp-maybe-compressed-blob"
 version = "11.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "thiserror 1.0.69",
  "zstd 0.12.4",
@@ -14646,7 +14642,7 @@ dependencies = [
 [[package]]
 name = "pezsp-metadata-ir"
 version = "0.6.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "frame-metadata",
  "parity-scale-codec",
@@ -14656,7 +14652,7 @@ dependencies = [
 [[package]]
 name = "pezsp-mixnet"
 version = "0.4.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezsp-api",
@@ -14667,7 +14663,7 @@ dependencies = [
 [[package]]
 name = "pezsp-mmr-primitives"
 version = "26.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "log",
  "parity-scale-codec",
@@ -14684,7 +14680,7 @@ dependencies = [
 [[package]]
 name = "pezsp-npos-elections"
 version = "26.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezsp-arithmetic",
@@ -14697,7 +14693,7 @@ dependencies = [
 [[package]]
 name = "pezsp-offchain"
 version = "26.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "pezsp-api",
  "pezsp-core",
@@ -14707,7 +14703,7 @@ dependencies = [
 [[package]]
 name = "pezsp-panic-handler"
 version = "13.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "backtrace",
  "regex",
@@ -14716,7 +14712,7 @@ dependencies = [
 [[package]]
 name = "pezsp-rpc"
 version = "26.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "pezsp-core",
  "rustc-hash 1.1.0",
@@ -14726,7 +14722,7 @@ dependencies = [
 [[package]]
 name = "pezsp-runtime"
 version = "31.0.1"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "binary-merkle-tree",
  "bytes",
@@ -14756,7 +14752,7 @@ dependencies = [
 [[package]]
 name = "pezsp-runtime-interface"
 version = "24.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bytes",
  "impl-trait-for-tuples",
@@ -14774,7 +14770,7 @@ dependencies = [
 [[package]]
 name = "pezsp-runtime-interface-proc-macro"
 version = "17.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "Inflector",
  "expander",
@@ -14787,7 +14783,7 @@ dependencies = [
 [[package]]
 name = "pezsp-session"
 version = "27.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezsp-api",
@@ -14801,7 +14797,7 @@ dependencies = [
 [[package]]
 name = "pezsp-staking"
 version = "26.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "impl-trait-for-tuples",
  "parity-scale-codec",
@@ -14814,7 +14810,7 @@ dependencies = [
 [[package]]
 name = "pezsp-state-machine"
 version = "0.35.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "hash-db",
  "log",
@@ -14834,7 +14830,7 @@ dependencies = [
 [[package]]
 name = "pezsp-statement-store"
 version = "10.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "aes-gcm",
  "curve25519-dalek",
@@ -14858,12 +14854,12 @@ dependencies = [
 [[package]]
 name = "pezsp-std"
 version = "14.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 
 [[package]]
 name = "pezsp-storage"
 version = "19.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "impl-serde",
  "parity-scale-codec",
@@ -14875,7 +14871,7 @@ dependencies = [
 [[package]]
 name = "pezsp-timestamp"
 version = "26.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-trait",
  "parity-scale-codec",
@@ -14887,7 +14883,7 @@ dependencies = [
 [[package]]
 name = "pezsp-tracing"
 version = "16.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "regex",
@@ -14899,7 +14895,7 @@ dependencies = [
 [[package]]
 name = "pezsp-transaction-pool"
 version = "26.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "pezsp-api",
  "pezsp-runtime",
@@ -14908,7 +14904,7 @@ dependencies = [
 [[package]]
 name = "pezsp-transaction-storage-proof"
 version = "26.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-trait",
  "parity-scale-codec",
@@ -14922,7 +14918,7 @@ dependencies = [
 [[package]]
 name = "pezsp-trie"
 version = "29.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "ahash 0.8.12",
  "bizinikiwi-prometheus-endpoint",
@@ -14947,7 +14943,7 @@ dependencies = [
 [[package]]
 name = "pezsp-version"
 version = "29.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "impl-serde",
  "parity-scale-codec",
@@ -14964,7 +14960,7 @@ dependencies = [
 [[package]]
 name = "pezsp-version-proc-macro"
 version = "13.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "proc-macro-warning",
@@ -14976,7 +14972,7 @@ dependencies = [
 [[package]]
 name = "pezsp-wasm-interface"
 version = "20.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "anyhow",
  "impl-trait-for-tuples",
@@ -14988,7 +14984,7 @@ dependencies = [
 [[package]]
 name = "pezsp-weights"
 version = "27.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "bounded-collections 0.3.2",
  "parity-scale-codec",
@@ -15003,7 +14999,7 @@ dependencies = [
 [[package]]
 name = "pezstaging-chain-spec-builder"
 version = "1.6.1"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "clap",
  "docify",
@@ -15016,7 +15012,7 @@ dependencies = [
 [[package]]
 name = "pezstaging-node-inspect"
 version = "0.12.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "clap",
  "parity-scale-codec",
@@ -15034,7 +15030,7 @@ dependencies = [
 [[package]]
 name = "pezstaging-teyrchain-info"
 version = "0.7.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezcumulus-primitives-core",
@@ -15047,12 +15043,12 @@ dependencies = [
 [[package]]
 name = "pezstaging-tracking-allocator"
 version = "2.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 
 [[package]]
 name = "pezstaging-xcm"
 version = "7.0.1"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "array-bytes",
  "bounded-collections 0.3.2",
@@ -15073,7 +15069,7 @@ dependencies = [
 [[package]]
 name = "pezstaging-xcm-builder"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "environmental",
  "impl-trait-for-tuples",
@@ -15097,7 +15093,7 @@ dependencies = [
 [[package]]
 name = "pezstaging-xcm-executor"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "environmental",
  "impl-trait-for-tuples",
@@ -18216,7 +18212,7 @@ checksum = "8f50febec83f5ee1df3015341d8bd429f2d1cc62bcba7ea2076759d315084683"
 [[package]]
 name = "testnet-teyrchains-constants"
 version = "1.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "pezcumulus-primitives-core",
  "pezframe-support",
@@ -18231,7 +18227,7 @@ dependencies = [
 [[package]]
 name = "teyrchains-common"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezcumulus-primitives-core",
@@ -18262,7 +18258,7 @@ dependencies = [
 [[package]]
 name = "teyrchains-runtimes-test-utils"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezcumulus-pezpallet-teyrchain-system",
@@ -20363,7 +20359,7 @@ dependencies = [
 [[package]]
 name = "xcm-pez-emulator"
 version = "0.5.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "array-bytes",
  "impl-trait-for-tuples",
@@ -20399,7 +20395,7 @@ dependencies = [
 [[package]]
 name = "xcm-pez-procedural"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "Inflector",
  "proc-macro2",
@@ -20410,7 +20406,7 @@ dependencies = [
 [[package]]
 name = "xcm-pez-simulator"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "paste",
@@ -20431,7 +20427,7 @@ dependencies = [
 [[package]]
 name = "xcm-runtime-pezapis"
 version = "0.1.1"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "parity-scale-codec",
  "pezframe-support",
@@ -20530,7 +20526,7 @@ dependencies = [
 [[package]]
 name = "zagros-runtime-constants"
 version = "7.0.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "pezframe-support",
  "pezkuwi-primitives",
@@ -20646,7 +20642,7 @@ checksum = "f1dccf46b25b205e4bebe1d5258a991df1cc17801017a845cb5b3fe0269781aa"
 [[package]]
 name = "zombienet-configuration"
 version = "0.44.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "anyhow",
  "lazy_static",
@@ -20666,7 +20662,7 @@ dependencies = [
 [[package]]
 name = "zombienet-orchestrator"
 version = "0.44.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -20701,7 +20697,7 @@ dependencies = [
 [[package]]
 name = "zombienet-prom-metrics-parser"
 version = "0.44.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "pest",
  "pest_derive",
@@ -20711,7 +20707,7 @@ dependencies = [
 [[package]]
 name = "zombienet-provider"
 version = "0.44.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -20742,7 +20738,7 @@ dependencies = [
 [[package]]
 name = "zombienet-sdk"
 version = "0.44.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "async-trait",
  "futures",
@@ -20759,7 +20755,7 @@ dependencies = [
 [[package]]
 name = "zombienet-support"
 version = "0.44.0"
-source = "git+https://github.com/pezkuwichain/pezkuwi-sdk?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
+source = "git+https://github.com/pezkuwichain/pezkuwi-sdk.git?branch=main#e42d63fcca28ce8bd15899af0ef232f043b61e8d"
 dependencies = [
  "anyhow",
  "async-trait",
