@@ -1,6 +1,6 @@
-// This file is part of pezkuwi-sdk.
+// This file is part of Bizinikiwi.
 
-// Copyright (C) Pezkuwi Foundation. and Kurdistan Blockchain Technologies Institute (KBTI) 2024.
+// Copyright (C) Parity Technologies (UK) Ltd.
 // SPDX-License-Identifier: Apache-2.0
 
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -21,13 +21,13 @@ use pezkuwi_sdk::{
 	*,
 };
 
-/// This is a specialization of the general bizinikiwi ChainSpec type.
+/// This is a specialization of the general Bizinikiwi ChainSpec type.
 pub type ChainSpec = pezsc_service::GenericChainSpec;
 
 fn props() -> Properties {
 	let mut properties = Properties::new();
 	properties.insert("tokenDecimals".to_string(), 0.into());
-	properties.insert("tokenSymbol".to_string(), "PEZ".into());
+	properties.insert("tokenSymbol".to_string(), "MINI".into());
 	properties
 }
 
@@ -36,7 +36,7 @@ pub fn development_chain_spec() -> Result<ChainSpec, String> {
 		.with_name("Development")
 		.with_id("dev")
 		.with_chain_type(ChainType::Development)
-		.with_genesis_config_preset_name(pezsp_genesis_builder::DEV_RUNTIME_PRESET)
+		.with_genesis_config_preset_name(pezkuwi_sdk::pezsp_genesis_builder::DEV_RUNTIME_PRESET)
 		.with_properties(props())
 		.build())
 }

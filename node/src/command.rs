@@ -1,6 +1,6 @@
-// This file is part of pezkuwi-sdk.
+// This file is part of Bizinikiwi.
 
-// Copyright (C) Pezkuwi Foundation. and Kurdistan Blockchain Technologies Institute (KBTI) 2024.
+// Copyright (C) Parity Technologies (UK) Ltd.
 // SPDX-License-Identifier: Apache-2.0
 
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -50,8 +50,9 @@ impl BizinikiwiCli for Cli {
 	fn load_spec(&self, id: &str) -> Result<Box<dyn pezsc_service::ChainSpec>, String> {
 		Ok(match id {
 			"dev" => Box::new(chain_spec::development_chain_spec()?),
-			path =>
-				Box::new(chain_spec::ChainSpec::from_json_file(std::path::PathBuf::from(path))?),
+			path => {
+				Box::new(chain_spec::ChainSpec::from_json_file(std::path::PathBuf::from(path))?)
+			},
 		})
 	}
 }
@@ -62,6 +63,7 @@ pub fn run() -> pezsc_cli::Result<()> {
 
 	match &cli.subcommand {
 		Some(Subcommand::Key(cmd)) => cmd.run(&cli),
+		#[allow(deprecated)]
 		Some(Subcommand::BuildSpec(cmd)) => {
 			let runner = cli.create_runner(cmd)?;
 			runner.sync_run(|config| cmd.run(config.chain_spec, config.network))
@@ -73,6 +75,10 @@ pub fn run() -> pezsc_cli::Result<()> {
 					service::new_partial(&config)?;
 				Ok((cmd.run(client, import_queue), task_manager))
 			})
+		},
+		Some(Subcommand::ExportChainSpec(cmd)) => {
+			let chain_spec = cli.load_spec(&cmd.chain)?;
+			cmd.run(chain_spec)
 		},
 		Some(Subcommand::ExportBlocks(cmd)) => {
 			let runner = cli.create_runner(cmd)?;
@@ -117,13 +123,18 @@ pub fn run() -> pezsc_cli::Result<()> {
 		None => {
 			let runner = cli.create_runner(&cli.run)?;
 			runner.run_node_until_exit(|config| async move {
-				match config.network.network_backend.unwrap_or_default() {
-					pezsc_network::config::NetworkBackendType::Libp2p =>
-						service::new_full::<pezsc_network::NetworkWorker<_, _>>(config, cli.consensus)
-							.map_err(pezsc_cli::Error::Service),
+				match config.network.network_backend {
+					pezsc_network::config::NetworkBackendType::Libp2p => service::new_full::<
+						pezsc_network::NetworkWorker<_, _>,
+					>(
+						config, cli.consensus
+					)
+					.map_err(pezsc_cli::Error::Service),
 					pezsc_network::config::NetworkBackendType::Litep2p => service::new_full::<
 						pezsc_network::Litep2pNetworkBackend,
-					>(config, cli.consensus)
+					>(
+						config, cli.consensus
+					)
 					.map_err(pezsc_cli::Error::Service),
 				}
 			})

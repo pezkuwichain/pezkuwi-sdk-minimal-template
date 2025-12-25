@@ -1,6 +1,6 @@
-// This file is part of pezkuwi-sdk.
+// This file is part of Bizinikiwi.
 
-// Copyright (C) Pezkuwi Foundation. and Kurdistan Blockchain Technologies Institute (KBTI) 2024.
+// Copyright (C) Parity Technologies (UK) Ltd.
 // SPDX-License-Identifier: Apache-2.0
 
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -16,8 +16,8 @@
 // limitations under the License.
 
 //! A collection of node-specific RPC methods.
-//! bizinikiwi provides the `pezsc-rpc` crate, which defines the core RPC layer
-//! used by bizinikiwi nodes. This file extends those RPC definitions with
+//! Bizinikiwi provides the `sc-rpc` crate, which defines the core RPC layer
+//! used by Bizinikiwi nodes. This file extends those RPC definitions with
 //! capabilities that are specific to this project's runtime configuration.
 
 #![warn(missing_docs)]
@@ -48,15 +48,15 @@ where
 	C: Send
 		+ Sync
 		+ 'static
-		+ pezsp_api::ProvideRuntimeApi<OpaqueBlock>
+		+ pezkuwi_sdk::pezsp_api::ProvideRuntimeApi<OpaqueBlock>
 		+ HeaderBackend<OpaqueBlock>
 		+ HeaderMetadata<OpaqueBlock, Error = BlockChainError>
 		+ 'static,
-	C::Api: pezsp_block_builder::BlockBuilder<OpaqueBlock>,
-	C::Api: pezframe_rpc_system::AccountNonceApi<OpaqueBlock, AccountId, Nonce>,
+	C::Api: pezkuwi_sdk::pezsp_block_builder::BlockBuilder<OpaqueBlock>,
+	C::Api: bizinikiwi_frame_rpc_system::AccountNonceApi<OpaqueBlock, AccountId, Nonce>,
 	P: TransactionPool + 'static,
 {
-	use pezkuwi_sdk::pezframe_rpc_system::{System, SystemApiServer};
+	use pezkuwi_sdk::bizinikiwi_frame_rpc_system::{System, SystemApiServer};
 	let mut module = RpcModule::new(());
 	let FullDeps { client, pool } = deps;
 

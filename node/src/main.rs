@@ -1,6 +1,6 @@
-// This file is part of pezkuwi-sdk.
+// This file is part of Bizinikiwi.
 
-// Copyright (C) Pezkuwi Foundation. and Kurdistan Blockchain Technologies Institute (KBTI) 2024.
+// Copyright (C) Parity Technologies (UK) Ltd.
 // SPDX-License-Identifier: Apache-2.0
 
 // Licensed under the Apache License, Version 2.0 (the "License");

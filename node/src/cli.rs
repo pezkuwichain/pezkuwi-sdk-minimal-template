@@ -1,7 +1,8 @@
-// This file is part of pezkuwi-sdk.
+// This file is part of Bizinikiwi.
 
-// Copyright (C) Pezkuwi Foundation. and Kurdistan Blockchain Technologies Institute (KBTI) 2024.
+// Copyright (C) Parity Technologies (UK) Ltd.
 // SPDX-License-Identifier: Apache-2.0
+
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
@@ -14,7 +15,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-use pezkuwi_sdk::{pezsc_cli::RunCmd, *};
+use pezkuwi_sdk::*;
 
 #[derive(Debug, Clone)]
 pub enum Consensus {
@@ -48,7 +49,7 @@ pub struct Cli {
 	pub consensus: Consensus,
 
 	#[clap(flatten)]
-	pub run: RunCmd,
+	pub run: pezsc_cli::RunCmd,
 }
 
 #[derive(Debug, clap::Subcommand)]
@@ -58,7 +59,15 @@ pub enum Subcommand {
 	Key(pezsc_cli::KeySubcommand),
 
 	/// Build a chain specification.
+	/// DEPRECATED: `build-spec` command will be removed after 1/04/2026. Use `export-chain-spec`
+	/// command instead.
+	#[deprecated(
+		note = "build-spec command will be removed after 1/04/2026. Use export-chain-spec command instead"
+	)]
 	BuildSpec(pezsc_cli::BuildSpecCmd),
+
+	/// Export the chain specification.
+	ExportChainSpec(pezsc_cli::ExportChainSpecCmd),
 
 	/// Validate blocks.
 	CheckBlock(pezsc_cli::CheckBlockCmd),

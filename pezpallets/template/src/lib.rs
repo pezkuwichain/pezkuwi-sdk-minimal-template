@@ -1,17 +1,18 @@
-//! A shell pezpallet built with [`pezframe`].
+//! A shell pezpallet built with [`frame`].
 //!
 //! To get started with this pezpallet, try implementing the guide in
-//! <https://github.com/pezkuwichain/pezkuwi-sdk>
+//! <https://docs.pezkuwichain.io/sdk/master/polkadot_sdk_docs/guides/your_first_pallet/index.html>
 
 #![cfg_attr(not(feature = "std"), no_std)]
 
-use pezkuwi_sdk::pezkuwi_sdk_frame::deps::pezframe_support::pezpallet_prelude::*;
+use frame::prelude::*;
+use pezkuwi_sdk::pezkuwi_sdk_frame as frame;
 
 // Re-export all pezpallet parts, this is needed to properly import the pezpallet into the runtime.
-pub use pallet::*;
+pub use pezpallet::*;
 
-#[pezkuwi_sdk::pezframe_support::pezpallet]
-pub mod pallet {
+#[frame::pezpallet]
+pub mod pezpallet {
 	use super::*;
 
 	#[pezpallet::config]

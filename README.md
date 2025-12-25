@@ -2,8 +2,8 @@
 
 # Pezkuwi SDK's Minimal Template
 
-<img height="70px" alt="Pezkuwi SDK Logo" src="https://github.com/pezkuwichain/pezkuwi-sdk/raw/master/docs/images/Pezkuwi_Logo_Horizontal_Pink_White.png#gh-dark-mode-only"/>
-<img height="70px" alt="Pezkuwi SDK Logo" src="https://github.com/pezkuwichain/pezkuwi-sdk/raw/master/docs/images/Pezkuwi_Logo_Horizontal_Pink_Black.png#gh-light-mode-only"/>
+<img height="70px" alt="Pezkuwi SDK Logo" src="https://github.com/pezkuwichain/pezkuwi-sdk/blob/main/docs/images/Pezkuwi_Logo_Horizontal_Pink_Black.png"/>
+<img height="70px" alt="Pezkuwi SDK Logo" src="https://github.com/pezkuwichain/pezkuwi-sdk/blob/main/docs/images/Pezkuwi_Logo_Horizontal_Pink_Black.png"/>
 
 > This is a minimal template for creating a blockchain based on Pezkuwi SDK.
 >
