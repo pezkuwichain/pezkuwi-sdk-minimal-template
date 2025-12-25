@@ -1,6 +1,6 @@
-// This file is part of Polkadot Sdk.
+// This file is part of Pezkuwi Sdk.
 
-// Copyright (C) Parity Technologies (UK) Ltd.
+// Copyright (C) Pezkuwi Foundation. and Kurdistan Blockchain Technologies Institute (KBTI) 2024.
 // SPDX-License-Identifier: Apache-2.0
 
 // Licensed under the Apache License, Version 2.0 (the "License");
